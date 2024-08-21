@@ -32,7 +32,6 @@ const LoginPage = () => {
 
   const [enterError, setEnterError] = useState('')
 
-  // Обработка отправки формы
   const onSubmit = (data: FormValues) => {
     if (data.email === 'user@example.com' && data.password === 'password123') {
       setEnterError('')
